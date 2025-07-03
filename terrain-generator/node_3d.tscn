@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://brsxasscja11u"]
+
+[sub_resource type="Compositor" id="Compositor_4xowi"]
+compositor_effects = Array[CompositorEffect]([null])
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+compositor = SubResource("Compositor_4xowi")
